@@ -1,6 +1,5 @@
 
 
-
 # Remove the first item:
 
 thislist = ["apple", "banana", "cherry"]
@@ -12,7 +11,7 @@ print(thislist)
 
 thislist = ["apple", "banana", "cherry"]
 del thislist
-#print(thislist)           #this will cause an error because you have succsesfully deleted "thislist".
+# print(thislist)           #this will cause an error because you have succsesfully deleted "thislist".
 
 
 # Clear the List
@@ -26,3 +25,9 @@ del thislist
 thislist = ["apple", "banana", "cherry"]
 thislist.clear()
 print(thislist)
+
+
+# Check if Item Exists
+thislist = ["apple", "banana", "cherry"]  # Define a list
+if "apple" in thislist:  # Check if "apple" is in the list
+    print("Yes, 'apple' is in the fruits list")
